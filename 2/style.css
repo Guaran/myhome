@@ -1,0 +1,10 @@
+
+a{
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: none;
+}
+footer{
+    border-bottom: 2px dashed black;
+}
