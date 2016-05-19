@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+.menu{
+    width: 8.9%;
+    float: left;
+}
+.ulmain{
+    margin-top: 200px;
+    position: fixed;
+}
+.ulmain a{
+    text-decoration: none;
+}
+.limain{
+    background-color: aquamarine;
+    width: 120px;
+    text-align: center;
+    font-size: 32px;
+}
+a{
+    text-decoration: none;  
+}
+li:hover{
+    background-color: aqua;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.ulmain > li {
+    position: relative;
+}
+ul.ulmain > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color:aquamarine;
+    text-decoration: none;
+}
+ul.ulmain > li > a:hover {
+    background-color:aqua;
+}
+ul.ulmain > li > ul > li > a:hover{
+    background-color: aqua;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 140px;
+    top: 0;
+    left: 120px;
+    background-color: white;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color:aquamarine;
+    text-decoration: none;
+}
+ul.ulmain > li:hover > ul.submenu {
+    display: block;
+}
+.text{
+    background-color: blueviolet;
+    width: 91.1%;
+    float: left;
+    margin-left: 120px;
+}
+h1, h2{
+    text-align: center;
+}
