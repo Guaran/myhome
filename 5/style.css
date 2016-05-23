@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+header{
+    height: 182px;
+    width: 100%;
+    background-color: #81f0fd;
+}
+.content{
+    width: 100%;
+    height: 599px;
+    margin-top: -71px;
+    margin-top: -96px;
+    z-index: 1;
+    position: relative;
+}
+.contentmain{
+    background-color: white;
+    width: 800px;
+    height: 768px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 79px 0 rgba(0,0,0,0.72); 
+}
+.cont{
+    float: left;
+}
+.face{
+    margin-left: 55px;
+    margin-top: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px 0 rgba(0,0,0,0.18);
+    float: left;
+}
+.name{
+    color: black;
+    float: left;
+    margin-left: 36px;
+    margin-top: 51px;
+    font-size: 72px;
+    color: #4b4b4b;
+}
+.developer{
+    color: #4b4b4b;
+    font-size: 32px;
+    float: left;
+    margin-left: 37px;
+    margin-top: 15px;
+}
+.text{
+    color: #4b4b4b;
+    float: left;
+    margin-top: 35px;
+    margin-left: 55px;
+    margin-right: 54px;
+}
+.team {
+	width: 712px;
+	margin-top: 25px;
+	margin-left: 67px;
+    display: inline-block;
+}
+.man{
+    display: inline-block;
+    width: 210px;
+    height: 260px;
+    margin-top: 0px;
+    margin-left: 17px;
+}
+.team-title {	
+	display: block;
+	font-family: Arial, sans-serif;	
+	color: #4b4b4b;
+	font-size: 32px;
+	margin-left: 20px;
+	margin-bottom: 14px;
+}
+.images{
+    display: block;
+    position: relative;
+}
+.team-wrapper{
+    display: inline-block;
+    width: 210px;
+    height: 260px;
+    background-color: #95e1d3;
+}
+.team-wrapper:hover > img{
+    top: -5px;
+    left: -5px;
+}
+.team-wrapper:hover{
+
+}
+.team-wrapper:hover > .team-hover{
+    display: block;
+    top: -265px;
+    left: -5px;
+}
+.team-wrapper:hover > .team-description{
+    position: fixed;
+}
+.team-hover{
+    display: none;
+    position: relative;
+    background-color: rgba(130, 242, 255, 0.62);
+    width: 100%;
+    height: 100%;
+}
+.team-description {
+	font-family: Arial, sans-serif;	
+	text-align: center;
+}
+.team-name {
+	display: inline-block;
+	color: #333;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.team-job {
+	margin-top: 10px;
+	display: inline-block;
+	color: #999;
+	font-size: 12px;
+}
+.list{
+    margin-top: 114px;
+    text-align: center;
+    float: left;
+    margin-left: 43px;
+    width: 124px;
+	height: 31px;
+	background-color: #404040;
+}
+.a1, .a2, .a3, .a4{
+    text-decoration: none;
+	width: 25%;
+	height: 31px;
+	float: left;
+    text-align: center;
+    background-size: cover;
+}
+.a1{
+    background: url(faceb.png) 50% 50% no-repeat;  
+}
+.a2{
+    background: url(twit.png) 50% 50% no-repeat; 
+}
+.a3{
+    background: url(p.png) 50% 50% no-repeat; 
+}
+.a4{
+    background: url(inst.png) 50% 50% no-repeat; 
+}
+.a1:hover{
+    background: url(faceb2.png) 50% 50% no-repeat;
+    background-color: #fff;
+}
+.a2:hover{
+    background: url(twit2.png) 50% 50% no-repeat;
+    background-color: #fff;
+}
+.a3:hover{
+    background: url(p2.png) 50% 50% no-repeat;
+    background-color: #fff;
+}
+.a4:hover{
+    background: url(inst2.png) 50% 50% no-repeat;
+    background-color: #fff;
+}
+a:hover{
+    background-color: #fff;
+}
+footer{
+    width: 100%;
+    height: 217px;
+    background-color: #404040;
+}
