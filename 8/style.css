@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+.cutten{
+    width: 400px;
+    height: 80px;
+    background: green;
+    overflow: hidden;
+    margin: 25px auto;
+    position: relative;
+}
+.cutten span{
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 0%;
+}
+.cutten span.top-l{
+    left: -45px;
+    top: -45px;
+}
+.cutten span.top-r{
+    right: -45px;
+    top: -45px;
+}
+.cutten span.bot-l{
+    left: -45px;
+    top: 75px;
+}
+.cutten span.bot-r{
+    right: -45px;
+    top: 75px; 
+}
+.cont{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.battery1, .battery2, .battery3{
+    width: 200px;
+    height: 80px;
+    background: black;
+    overflow: hidden;
+    margin: 25px auto;
+    position: relative;
+}
+.battery1 span{
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 0%;
+    z-index: 999;
+}
+.battery2 span{
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 0%;
+    z-index: 999;
+}
+.battery3 span{
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 0%;
+    z-index: 999;
+}
+.battery1 .batcont{
+    position: absolute; 
+    width: 185px;
+    height: 70px;
+    background: #00FF00;
+    top: 5px;
+    left: 5px;
+}
+.battery2 .batcont{
+    position: absolute; 
+    width: 115px;
+    height: 70px;
+    background: #FFD700;
+    top: 5px;
+    left: 5px;
+}
+.battery3 .batcont{
+    position: absolute; 
+    width: 65px;
+    height: 70px;
+    background: #FF0000;
+    top: 5px;
+    left: 5px;
+}
+.battery2 .batcont2{
+    position: absolute; 
+    width: 70px;
+    height: 70px;
+    background: white;
+    top: 5px;
+    left: 120px;
+}
+.battery3 .batcont2{
+    position: absolute; 
+    width: 120px;
+    height: 70px;
+    background: white;
+    top: 5px;
+    left: 70px;
+}
+.battop-r{
+    right: -45px;
+    top: -25px;
+}
+.batbot-r{
+    right: -45px;
+    top: 50px;
+}
+.button{
+    height: 40px;
+    width: 200px;
+    position: relative;
+    margin: 50px auto;
+    background: linear-gradient(180deg,rgba(255,0,255, 0.33) 5%, rgba(255,0,255, 0.2), rgba(255,0,255, 0.33) 95%);
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px rgba(255,0,255, 0.33), 0 0 0 4px #fff, 0 0 0 7px rgba(0,255,255, 0.1);
+}
+.buttext{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover{
+    background: rgba(255,0,255, 0.33);
+}
