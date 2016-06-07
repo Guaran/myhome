@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+.table-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+table{
+    position: absolute;
+    border-collapse: collapse;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+tr, td, th{
+    border: 1px solid rgba(190, 190, 190, 0.4);
+}
+td{
+    padding-left: 4px;
+}
+th{
+    padding-right: 112px; 
+}
+thead tr:nth-child(1){
+    font-weight: bold;
+}
+td, th{
+    height: 30px;
+    width: 200px;
+}
+    
