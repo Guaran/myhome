@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+form{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.form-group{
+    display: table;
+    width: 600px;
+}
+.user-textbox{ 
+    width: 561px;
+    border: 1px solid #ccc;
+    border-radius: 0px 4px 4px 0px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.span-username{
+    border: 1px solid #ccc;
+    border-radius: 4px 0px 0px 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #eee;
+}
+.name{
+    margin-bottom: 15px;
+}
+.recipient-username{
+    width: 476px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #ccc;
+}
+.span-recipient{
+    border: 1px solid #ccc;
+    border-radius: 0px 4px 4px 0px;
+    padding: 8px 11px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    background-color: #eee;
+}
+.recipi{
+    margin-bottom: 15px;
+}
+.money-textbox{
+    width: 522px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+.money-textbox::-webkit-input-placeholder {
+    padding-left: 15px;
+}
+.span-money1, .span-money2{
+    border: 1px solid #ccc;
+    padding: 9px 12px;
+    background-color: #eee;
+    font-size: 12px;
+}
+.span-money1{
+    border-radius: 4px 0px 0px 4px;
+}
+.span-money2{
+    border-radius: 0px 4px 4px 0px;
+}
+.money{
+    margin-bottom: 15px;
+}
+label{
+    font-weight: 700;
+}
+.labe{
+    margin-bottom: 15px;
+}
+.span-url{
+    border: 1px solid #ccc;
+    border-radius: 4px 0px 0px 4px;
+    padding: 9px 12px;
+    background-color: #eee;
+    padding: 7px 11px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
+.url-textbox{
+    width: 404px;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 0px 4px 4px 0px;
+}
+.form-button{
+    width: 70px;
+    height: 34px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: rgba(204, 204, 204, 0.4);
+}
